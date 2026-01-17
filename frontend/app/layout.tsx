@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  icons: {
+    icon: "/favicon.ico",
+  },
   title: "Instagen - Fake Instagram Generator",
   description: "Create realistic fake Instagram profiles and comments for free. The ultimate social media mockup tool.",
 };
