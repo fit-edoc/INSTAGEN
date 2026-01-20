@@ -15,11 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  icons: {
-    icon: "/favicon.ico",
-  },
-  title: "Instagen - Fake Instagram Generator",
-  description: "Create realistic fake Instagram profiles and comments for free. The ultimate social media mockup tool.",
+  title: "Instagen - mockup and profile generator",
+  description: "Create realistic  Instagram profiles and comments for free. The ultimate social media mockup tool.",
+
 };
 
 export default function RootLayout({
@@ -29,6 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
